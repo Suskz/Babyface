@@ -20,6 +20,7 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
+    padding-top: 2vh;
     color: #212529;
 }
 
@@ -29,4 +30,12 @@ body {
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #2937f0;
+}
+
+#user-area {
+    display: flex;
+}
+
+#mainNav #user-area i{
+    font-size: 2rem;
 }
