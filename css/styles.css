@@ -367,17 +367,104 @@ header {
 
 
 /* footer */
-
-.footer-area {
-    background-color: #fff;
-}
-
-.footer-area p {
+#footer-area {
     text-align: center;
-    color: #000;
 }
 
-.py-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+#social-media-area {
+    font-size: 3rem;
+}
+
+#social-media-area .location {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#social-media-area .location:hover {
+    text-decoration: underline;
+    color: #e61414
+}
+
+#social-media-area .whatsapp {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#social-media-area .whatsapp:hover {
+    text-decoration: underline;
+    color: #25D366
+}
+
+#social-media-area .facebook {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#social-media-area .facebook:hover {
+    text-decoration: underline;
+    color: rgb(0, 79, 159);
+}
+
+#social-media-area .x {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#social-media-area .x:hover {
+    text-decoration: underline;
+    color: #000000
+}
+
+#social-media-area .instagram {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#social-media-area .instagram:hover {
+    text-decoration: underline;
+    color: #cc2366
+}
+
+#dev-media-area .black {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#dev-media-area .black:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+#dev-media-area .blue {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+
+}
+
+#dev-media-area .blue:hover {
+    text-decoration: underline;
+    color: rgb(0, 79, 159);
+}
+
+#dev-media-area table {
+    width: 60% !important;
+    margin: auto;
+}
+
+#copy-area {
+    margin: auto;
+    background-color: #fff;
 }
