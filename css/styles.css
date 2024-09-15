@@ -369,10 +369,7 @@ header {
 /* footer */
 #footer-area {
     text-align: center;
-}
-
-#social-media-area {
-    font-size: 3rem;
+    padding-top: 2.5rem;
 }
 
 #social-media-area .location {
@@ -469,7 +466,11 @@ header {
     background-color: #fff;
 }
 
-/* login */
+#copy-area p{
+    margin-top: 1rem;
+}
+
+/* login e cadastrar */
 
 .bd-placeholder-img {
     font-size: 1.125rem;
