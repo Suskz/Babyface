@@ -1,6 +1,8 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 243, 239);
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff7f7;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -146,9 +148,9 @@ header {
     height: auto;
 }
 
-.section-heading {
+/*.section-heading {
     text-transform: uppercase;
-}
+}*/
 
 .section-heading .section-heading-upper {
     display: block;
@@ -157,26 +159,35 @@ header {
 }
 
 .section-heading .section-heading-lower {
+    font-family: "Cormorant Garamond", serif !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
     display: block;
     font-size: 3rem;
     font-weight: 100;
 }
 
+.btn {
+    font-family: "Cormorant Garamond", serif !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+}
+
 .btn-primary {
-    --bs-btn-color: #000;
-    --bs-btn-bg: #e6a756;
-    --bs-btn-border-color: #e6a756;
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #eab46f;
-    --bs-btn-hover-border-color: #e9b067;
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #a24e4e;
+    --bs-btn-border-color: #a24e4e;
+    --bs-btn-hover-color: #a24e4e;
+    --bs-btn-hover-bg: #ffe2e2;
+    --bs-btn-hover-border-color: #a24e4e;
     --bs-btn-focus-shadow-rgb: 196, 142, 73;
-    --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #ebb978;
-    --bs-btn-active-border-color: #e9b067;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #a24e4e;
+    --bs-btn-active-border-color: #a24e4e;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #000;
-    --bs-btn-disabled-bg: #e6a756;
-    --bs-btn-disabled-border-color: #e6a756;
+    --bs-btn-disabled-bg: #a24e4e;
+    --bs-btn-disabled-border-color: #a24e4e;
 }
 
 .btn {
@@ -185,11 +196,11 @@ header {
 
 .btn-xl {
     font-weight: 700;
-    font-size: 0.8rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .mb-3 {
@@ -273,8 +284,15 @@ header {
     text-align: center !important;
 }
 
+.text-center p {
+    text-align: center !important;
+    font-family: "Mulish", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
 .bg-faded {
-    background-color: #f6e1c5;
+    background-color: #e4d6d6;
 }
 
 .intro {
@@ -311,7 +329,11 @@ header {
 .cta {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgba(230, 167, 86, 0.9);
+    background-color: #a24e4e;
+}
+
+.cta-inner h2 {
+    color: #a24e4e;
 }
 
 .cta .cta-inner {
@@ -328,7 +350,7 @@ header {
     bottom: -0.5rem;
     left: -0.5rem;
     right: -0.5rem;
-    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    border: 0.25rem solid #e4d6d6;
     z-index: -1;
 }
 
@@ -522,7 +544,6 @@ header {
 .btn-bd-primary {
     --bd-violet-bg: #712cf9;
     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
     --bs-btn-bg: var(--bd-violet-bg);
@@ -548,45 +569,39 @@ header {
 
 @media (min-width: 992px) {
     .product-item .product-item-title {
-      position: relative;
-      z-index: 1;
-      margin-bottom: -3rem;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
     }
+
     .product-item .product-item-img {
-      position: relative;
-      z-index: 0;
-      max-width: 60vw;
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
     }
+
     .product-item .product-item-description {
-      position: relative;
-      z-index: 1;
-      margin-top: -3rem;
-      max-width: 50vw;
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 50vw;
     }
-  }
+}
 
-  .d-flex {
+.d-flex {
     display: flex !important;
-  }
+}
 
-  .ms-auto {
+.ms-auto {
     margin-left: auto !important;
-  }
+}
 
-  .section-heading {
-    text-transform: uppercase;
-  }
-  .section-heading .section-heading-upper {
+.section-heading .section-heading-upper {
     display: block;
     font-size: 1rem;
     font-weight: 800;
-  }
-  .section-heading .section-heading-lower {
-    display: block;
-    font-size: 3rem;
-    font-weight: 100;
-  }
+}
 
-  .me-auto {
+.me-auto {
     margin-right: auto !important;
-  }
+}
