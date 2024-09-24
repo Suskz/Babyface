@@ -1,3 +1,10 @@
+/*
+btn #a24e4e
+title-about #987490 
+background-geral #fff7f7
+bg-faded #e4d6d6
+*/
+
 body {
     font-family: "PT Serif", serif;
     font-weight: 400;
@@ -383,6 +390,45 @@ header {
     width: 83.33333333%;
 }
 
+/* about */
+
+#about-us {
+    border: solid;
+    border-color: #a24e4e;
+    border-left: none;
+    border-width: 0.1rem;
+}
+.title-about {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #987490;
+    font-size: xx-large;
+    background-color: #fff6f7;
+    padding-top: 5rem;
+}
+
+@media (max-width: 745px) {
+    .title-about {
+        padding-top: 0;
+    }
+}
+
+.text-about {
+    color: #915f5e;
+    padding-left: 2rem;
+    background-color: #fff;
+}
+
+.title-box {
+    padding-top: 2rem;
+}
+
+#small-text {
+    font-size: smaller;
+}
+
 /* footer */
 #footer-area {
     text-align: center;
@@ -565,7 +611,90 @@ header {
     display: block !important;
 }
 
+/* clients */
+
+.clients-area {
+    background-color: #e4d6d6;
+    padding: 5rem;
+}
+
+.clients {
+    text-align: center;
+    border: solid;
+    border-width: 0.1rem;
+    border-color: #a24e4e;
+    background-color: #fff;
+    color: #a24e4e;
+}
+
+.clients p {
+    margin: 4rem 1rem 2.5rem 1rem;
+}
+
+.clients h5 {
+    margin-bottom: 4rem;
+}
+
+.title-client {
+    text-align: center;
+    color: #a24e4e;
+}
+
 /* products */
+
+.title-products {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.row #product-back {
+    margin-top: 2vh;
+}
+
+.title-products h6 {
+    margin-left: 1rem;
+    color: #a24e4e;
+    font-size: 2rem;
+}
+
+.product-item img{
+    max-width: 50vh;
+}
+
+.image-product {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-overlay p {
+    font-family: "PT Serif", serif;
+    font-size: medium;
+    margin-left: -5rem;
+    font-style: normal;
+    
+  }
+
+  .text-overlay h6 {
+    font-family: "Cormorant Garamond", serif !important;
+    font-style: normal !important;
+    font-size: 2rem;
+    margin-left: -5rem;
+  }
 
 @media (min-width: 992px) {
     .product-item .product-item-title {
