@@ -476,8 +476,25 @@ header {
 }
 
 .form-info {
-    padding-left: 8rem;
-    margin-top: 10rem;
+    margin-top: 11rem;
+}
+
+@media (max-width: 768px) {
+    .form-info {
+        margin-top: 3rem;
+    }
+}
+
+.form-info p{
+    color: #fff;
+}
+
+.form-info #contact-email {
+    margin-top: 3rem;
+}
+
+.form-info #contact-social p{
+    margin-top: 3rem;
 }
 
 #footer-area {
@@ -487,9 +504,11 @@ header {
 
 #social-media-area .location {
     font-weight: bold;
-    color: #444;
+    color: #ffffff;
     text-decoration: none;
-
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 3rem;
 }
 
 #social-media-area .location:hover {
@@ -499,9 +518,11 @@ header {
 
 #social-media-area .whatsapp {
     font-weight: bold;
-    color: #444;
+    color: #ffffff;
     text-decoration: none;
-
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 3rem;
 }
 
 #social-media-area .whatsapp:hover {
@@ -511,9 +532,11 @@ header {
 
 #social-media-area .facebook {
     font-weight: bold;
-    color: #444;
+    color: #ffffff;
     text-decoration: none;
-
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 3rem;
 }
 
 #social-media-area .facebook:hover {
@@ -523,9 +546,11 @@ header {
 
 #social-media-area .x {
     font-weight: bold;
-    color: #444;
+    color: #ffffff;
     text-decoration: none;
-
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 3rem;
 }
 
 #social-media-area .x:hover {
@@ -535,14 +560,21 @@ header {
 
 #social-media-area .instagram {
     font-weight: bold;
-    color: #444;
+    color: #ffffff;
     text-decoration: none;
-
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 3rem;
 }
 
 #social-media-area .instagram:hover {
     text-decoration: underline;
-    color: #cc2366
+    color: #ff2d81
+}
+
+#copy {
+    text-align: center;
+    margin-top: -4rem;
 }
 
 #dev-media-area .black {
