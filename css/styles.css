@@ -176,8 +176,8 @@ header {
 
 .btn {
     font-family: "Cormorant Garamond", serif !important;
-  font-weight: 900 !important;
-  font-style: normal !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
 }
 
 .btn-primary {
@@ -398,6 +398,7 @@ header {
     border-left: none;
     border-width: 0.1rem;
 }
+
 .title-about {
     font-family: "PT Serif", serif;
     font-weight: 400;
@@ -430,6 +431,55 @@ header {
 }
 
 /* footer */
+
+.footer {
+    background-color: #a24e4e;
+}
+
+.contact-form h1 {
+    font-family: "Cormorant Garamond", serif !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-form p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.contact-form .btn {
+    --bs-btn-color: #987490;
+    --bs-btn-bg: #e4d6d6;
+    --bs-btn-border-color: #a24e4e;
+    --bs-btn-hover-color: #a24e4e;
+    --bs-btn-hover-bg: #ffe2e2;
+    --bs-btn-hover-border-color: #a24e4e;
+    --bs-btn-focus-shadow-rgb: 196, 142, 73;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #a24e4e;
+    --bs-btn-active-border-color: #a24e4e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #a24e4e;
+    --bs-btn-disabled-border-color: #a24e4e;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: "Mulish", sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.form-info {
+    padding-left: 8rem;
+    margin-top: 10rem;
+}
+
 #footer-area {
     text-align: center;
     padding-top: 2.5rem;
@@ -657,21 +707,21 @@ header {
     font-size: 2rem;
 }
 
-.product-item img{
+.product-item img {
     max-width: 50vh;
 }
 
 .image-product {
     position: relative;
     text-align: center;
-  }
-  
-  .image-container {
+}
+
+.image-container {
     position: relative;
     display: inline-block;
-  }
-  
-  .text-overlay {
+}
+
+.text-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -679,22 +729,22 @@ header {
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  }
+}
 
-  .text-overlay p {
+.text-overlay p {
     font-family: "PT Serif", serif;
     font-size: medium;
     margin-left: -5rem;
     font-style: normal;
-    
-  }
 
-  .text-overlay h6 {
+}
+
+.text-overlay h6 {
     font-family: "Cormorant Garamond", serif !important;
     font-style: normal !important;
     font-size: 2rem;
     margin-left: -5rem;
-  }
+}
 
 @media (min-width: 992px) {
     .product-item .product-item-title {
