@@ -778,6 +778,19 @@ header {
     margin-left: -5rem;
 }
 
+/*teste*/
+@media (min-width: 1080px) {
+    .product-item img {
+        max-width: 40vh;
+    }
+}
+/*teste*/
+@media (min-width: 766px) {
+    .product-item img {
+        max-width: 50vh;
+    }
+}
+
 @media (min-width: 992px) {
     .product-item .product-item-title {
         position: relative;
