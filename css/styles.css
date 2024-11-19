@@ -781,15 +781,16 @@ header {
 /*teste*/
 @media (min-width: 1080px) {
     .product-item img {
-        max-width: 40vh;
+        max-width: 40vh !important;
     }
 }
 /*teste*/
-@media (min-width: 766px) {
+@media (max-width: 768px) {
     .product-item img {
-        max-width: 50vh;
+        max-width: 50vh !important;
     }
 }
+
 
 @media (min-width: 992px) {
     .product-item .product-item-title {
