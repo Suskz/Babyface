@@ -832,6 +832,10 @@ header {
         font-size: 1.2rem;
     }
 
+    .text-overlay .inback {
+        font-size: 0.8rem;
+    }
+
     .text-overlay h6 {
         font-size: 2rem;
     }
