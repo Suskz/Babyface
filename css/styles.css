@@ -740,7 +740,8 @@ header {
 }
 
 .product-item img {
-    max-width: 50vh;
+    max-width: 100%;
+    height: auto;
 }
 
 .image-product {
@@ -757,7 +758,7 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -50%);
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -765,50 +766,88 @@ header {
 
 .text-overlay p {
     font-family: "PT Serif", serif;
-    font-size: medium;
-    margin-left: -5rem;
+    font-size: 1.2rem;
+    margin-left: 0;
     font-style: normal;
-
 }
 
 .text-overlay h6 {
     font-family: "Cormorant Garamond", serif !important;
     font-style: normal !important;
-    font-size: 2rem;
-    margin-left: -5rem;
+    font-size: 1.5rem;
+    margin-left: 0;
 }
 
-/*teste*/
-@media (min-width: 1080px) {
+@media (max-width: 767px) {
     .product-item img {
-        max-width: 40vh;
+        max-width: 90vw;
+        height: auto;
+    }
+
+    .text-overlay p {
+        font-size: 1rem;
+    }
+
+    .text-overlay h6 {
+        font-size: 1.5rem;
+    }
+
+    .product-item .product-item-title {
+        margin-bottom: 1rem;
+    }
+
+    .product-item .product-item-description {
+        margin-top: 1rem;
     }
 }
-/*teste*/
-@media (min-width: 766px) {
+
+@media (min-width: 768px) and (max-width: 991px) {
     .product-item img {
-        max-width: 50vh;
+        max-width: 80vh;
+    }
+
+    .text-overlay p {
+        font-size: 1.1rem;
+    }
+
+    .text-overlay h6 {
+        font-size: 1.8rem;
+    }
+
+    .product-item .product-item-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .product-item .product-item-description {
+        margin-top: 1.5rem;
     }
 }
 
 @media (min-width: 992px) {
-    .product-item .product-item-title {
-        position: relative;
-        z-index: 1;
-        margin-bottom: -3rem;
+    .product-item img {
+        max-width: 50vh;
     }
 
-    .product-item .product-item-img {
-        position: relative;
-        z-index: 0;
-        max-width: 60vw;
+    .text-overlay p {
+        font-size: 1.2rem;
+    }
+
+    .text-overlay h6 {
+        font-size: 2rem;
+    }
+
+    .product-item .product-item-title {
+        margin-bottom: 2rem;
     }
 
     .product-item .product-item-description {
-        position: relative;
-        z-index: 1;
-        margin-top: -3rem;
-        max-width: 50vw;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1080px) {
+    .product-item img {
+        max-width: 40vh; 
     }
 }
 
