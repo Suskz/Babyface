@@ -23,7 +23,7 @@ body {
 
 #mainNav .navbar-brand:hover,
 #mainNav .navbar-brand:active {
-    color: #2937f0;
+    color: #a24e4e;
 }
 
 #mainNav .navbar-toggler {
@@ -346,7 +346,7 @@ header {
 .cta .cta-inner {
     position: relative;
     padding: 3rem;
-    margin: 0.5rem;
+    margin: -3rem;
 }
 
 .cta .cta-inner:before {
@@ -395,8 +395,9 @@ header {
 #about-us {
     border: solid;
     border-color: #a24e4e;
-    border-left: none;
     border-width: 0.1rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
 }
 
 .title-about {
@@ -726,7 +727,6 @@ header {
 
 .title-products {
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .row #product-back {
