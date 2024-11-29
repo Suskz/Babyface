@@ -939,3 +939,11 @@ header {
 .related-product {
     background-color: #e4d6d6;
 }
+
+.card .card-body {
+    background-color: #fff7f7;
+}
+
+.card .card-footer {
+    background-color: #fff7f7;
+}
