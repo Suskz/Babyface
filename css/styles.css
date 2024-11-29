@@ -938,6 +938,7 @@ header {
 
 .related-product {
     background-color: #e4d6d6;
+    margin-bottom: -5rem;
 }
 
 .card .card-body {
